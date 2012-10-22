@@ -1,3 +1,9 @@
+/*!
+ * jquery.away 1.0
+ *
+ * Released under the MIT license
+ * http://www.opensource.org/licenses/mit-license.php
+ */
 ;(function($) {
 
 	// away flag
@@ -22,7 +28,7 @@
 	}, 1000);
 
 	// reset idle time when active
-	$(document).on('mousemove keydown DOMMouseScroll mousewheel mousedown touchstart touchmove', function() {
+	$(document).on('DOMMouseScroll keydown mousedown mousemove mousewheel touchstart', function() {
 		seconds = 0;
 	});
 

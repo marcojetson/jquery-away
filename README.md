@@ -24,6 +24,10 @@ Utils for detecting inactive clients
         }
     });
 
+## License
+
+Released under the MIT license
+http://www.opensource.org/licenses/mit-license.php
 
 ## Functions
 
